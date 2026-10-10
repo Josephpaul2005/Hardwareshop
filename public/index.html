@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <title>Hardware Hub — Build something brilliant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Hardware Hub home"><span class="brand-mark">H<span>+</span></span><span>hardware<span class="brand-light">hub</span></span></a>
+    <nav><a class="nav-active" href="#catalog">Components</a><a href="#why-us">Why us</a></nav>
+    <a class="cart-link" href="#catalog"><span class="cart-icon">⌑</span><span>Explore gear</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy"><div class="eyebrow"><span class="pulse"></span> YOUR NEXT BUILD STARTS HERE</div>
+        <h1>Gear up.<br><span>Build beyond.</span></h1>
+        <p>Thoughtfully picked PC hardware for the ideas that keep you up at night.</p>
+        <a class="primary-button" href="#catalog">Explore components <span>↗</span></a>
+        <div class="hero-meta"><div class="avatar-stack"><i>J</i><i>M</i><i>A</i><i>+</i></div><span><strong>Built for makers</strong><br>From first build to full send</span></div>
+      </div>
+      <div class="hero-art"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="hero-grid"></div>
+        <img class="hero-product" src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=1200&q=90" alt="Illuminated PC hardware components">
+        <div class="floating-note note-top"><span class="note-icon">✳</span><span><b>Performance</b><small>without compromise</small></span></div>
+        <div class="floating-note note-bottom"><span class="note-icon cyan">↗</span><span><b>Good gear.</b><small>Great builds.</small></span></div>
+        <div class="hero-index">01 / COMPONENTS</div>
+      </div>
+      <div class="hero-scroll"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="catalog section-wrap" id="catalog">
+      <div class="section-heading"><div><div class="eyebrow muted">THE COMPONENT EDIT</div><h2>Find your <span>next upgrade.</span></h2></div><p>Quality parts. Honest picks.<br>Ready for whatever you dream up.</p></div>
+      <div class="toolbar"><div class="filters" id="filters" aria-label="Filter by category"></div><div class="catalog-tools"><label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Search hardware..." aria-label="Search hardware"></label><select id="sort" aria-label="Sort products"><option value="featured">Featured</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option></select></div></div>
+      <div class="result-line"><span id="result-count">Loading components...</span><span class="live-status"><i></i> LIVE CATALOG</span></div>
+      <div class="product-grid" id="products" aria-live="polite"></div>
+      <div class="empty-state" id="empty-state" hidden><div>⌕</div><h3>No components found</h3><p>Try a different search or category.</p></div>
+    </section>
+
+    <section class="why section-wrap" id="why-us"><div class="why-inner"><div><div class="eyebrow">WHY HARDWARE HUB</div><h2>Less scrolling.<br><span>More building.</span></h2></div><div class="why-points"><div><b>01</b><span><strong>Curated parts</strong><small>Good picks, clear details, zero guesswork.</small></span></div><div><b>02</b><span><strong>Built for every level</strong><small>Tools for your very first rig and your next big upgrade.</small></span></div><div><b>03</b><span><strong>Always evolving</strong><small>A catalog that keeps up with your next idea.</small></span></div></div></div></section>
+  </main>
+  <footer><a class="brand" href="#top"><span class="brand-mark">H<span>+</span></span><span>hardware<span class="brand-light">hub</span></span></a><span>Made for the joy of the build.</span><span>© 2025 Hardware Hub</span></footer>
+</body>
+</html>
