@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hardware Hub
 
 A responsive hardware catalog built with HTML, CSS, browser JavaScript, Node.js, Express, and MongoDB. The cool midnight-blue interface includes searchable/filterable product cards, demo photography, and a MongoDB-backed API.
@@ -24,3 +25,6 @@ The seed command replaces the existing hardware collection with eight sample pro
 - `GET /api/hardware/:id` — retrieve one item
 
 The MongoDB model is in `server.js`. Add write endpoints and authentication before using this starter for a public inventory system.
+=======
+# Hardwareshop
+>>>>>>> d451500ff4420300391dda6e0b8b80ebcbb85078
